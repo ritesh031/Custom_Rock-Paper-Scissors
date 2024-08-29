@@ -1,0 +1,73 @@
+@font-face {
+    font-family: custom-by-ritesh;
+    src: url(mycustom.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: custom-by-ritesh, Times, serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #00a8e8;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #800e13;
+}
+
+
+img {
+    height: 130px;
+    width:130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-top: 4rem;
+}
+
+#user-score, #comp-score {
+    font-size: 5rem;
+}
+
+#msg {
+    background-color: #00171f;
+    color: #ffffff;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.msg-container {
+    margin-top: 4rem;
+}
